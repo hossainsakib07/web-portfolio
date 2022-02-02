@@ -35,11 +35,16 @@ h3{
 }
 .top-sec-banner{
     background-image: url("images/bg-img1.jpg");
+    flex-wrap: wrap;
 }
 .mid-sec{
     background-image: url("images/bg-img-2.jpg");
     background-repeat: no-repeat;
     background-position: right;
+    flex-wrap: wrap;
+}
+.bottom-sec{
+    flex-wrap: wrap;
 }
 section{
     height: 500px;
